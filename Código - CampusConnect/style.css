@@ -1,0 +1,151 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    }
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    background-color: #64B8EB;
+    padding: 15px;
+    }
+
+nav{
+    margin-top: 10px;
+    }
+    
+nav a{
+    color: #000000;
+    margin: 0 12px;
+    padding: 8px 15px;
+    border-radius: 6px;
+    transition: 0.3s;
+    }
+
+nav a:hover{
+    background-color: #A3CDE7;
+    color: #000000;
+        }
+
+.bloco{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 0;
+    overflow: visible;
+    border-radius: 10px;
+    margin-bottom: 0;
+    }
+
+.nome{
+    display: inline-flex;
+    font-size: 14px;
+    letter-spacing: .06em;
+    }
+
+.historia{
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px 20px;
+    border-radius: 10px;
+    }
+
+h1{
+    text-align: center;
+    color: #000000;
+    }
+
+/*login*/
+
+.h1-login{
+    color: #000000;
+    text-align: center;
+    font-size: 40px;
+   }
+.container {
+   max-width:400px;
+   margin: 4rem auto;
+   background: #64B8EB;
+   padding: 2rem;
+   border-radius: 10px;
+   box-shadow: 0 0 10px rgba(0,0,0,0.1);
+   } 
+  
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  border: gray;
+  font-size: 20px;
+  }
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 2rem;
+  border: 1.5px solid #696969;
+  border-radius: 5px;
+  }
+
+.button:hover {
+  background: #A3CDE7;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  transform: scale(1.1);
+  }
+
+.barra {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  }
+  @media (max-width: 500px) {
+  .container {
+    margin: 2rem 1rem;
+    padding: 1rem;
+  }
+  .button {
+    font-size: 1rem;
+  }
+  }
+
+/*cadastro*/
+
+.cadastro1{
+  display: flex;
+  gap: 15px;
+}
+
+.cadastro2{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+/*botao*/
+
+.botao1{
+  display: flex;
+  gap: 15px;
+}
+
+.botao2{
+  display: flex;
+  flex-direction: column;
+  flex: 1; 
+}
+  
+.botao3{
+  display: flex;
+  align-items: stretch; 
+  gap: 8px; 
+  border-radius: 2px;
+}
